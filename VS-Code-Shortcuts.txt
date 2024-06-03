@@ -1,0 +1,40 @@
+0. Commonly Used : 
+    - Ctrl + B : use for the show files. 
+    - Ctrl + ~ : use for the open and closed terminal. 
+    - Ctrl + P : use for the quick open menu. 
+    - Ctrl + shift + P : use to open search box 
+    - Ctrl + up/down arrow : Scroll with Keyboard 
+    - Ctrl + \ : use for split editor window. 
+    - Ctrl + W : use for the closed file. 
+    - Ctrl + Enter : Places the cursor in New Line 
+    - Ctrl + shift + l : use select all matches words in whole file and then edit or del. (risk if similar names) 
+    - Ctrl + D : use to only add the next match to group selection. 
+    - shift + alt + down : use for the duplicates lines and paste it there down.
+
+
+1. General Shortcuts:
+   - Ctrl + B: Toggle sidebar visibility.
+   - Ctrl + `: Toggle integrated terminal.
+   - Ctrl + P: Quick open a file.
+   - Ctrl + Shift + P: Open the command palette.
+   - Ctrl + Up/Down Arrow: Scroll with keyboard.
+   - Ctrl + \: Split editor window.
+   - Ctrl + W: Close file.
+   - Ctrl + Enter: Places the cursor in a new line.
+
+2. Text Editing Shortcuts:
+   - Ctrl + D: Add the next match to the selection.
+   - Shift + Alt + Down: Duplicate lines and place them below the original.
+
+3. Code Navigation Shortcuts:
+   - Ctrl + Shift + L: Select all matches, allowing for simultaneous editing or deletion (use with caution when similar names exist).
+   - Alt + Left/Right: Navigate back/forward.
+
+4. Code Formatting Shortcuts:
+   - Shift + Alt + F: Format document.
+   - Ctrl + K, Ctrl + F: Format selection.
+
+5. Additional Shortcut Mentioned:
+   - Ctrl + Shift + ~: Open and close the terminal.
+
+These shortcuts cover a wide range of functionalities and can greatly enhance your coding experience in Visual Studio Code. Feel free to practice and integrate these shortcuts into your workflow, and let me know if there's anything else you'd like to learn!  
