@@ -1,0 +1,12 @@
+
+cntr + B        : use for the show files.
+cntr + ~        : use for the open and closed terminal.
+cntr + P        : use for the quick open menu.
+cntr + shift + P : use to open search box
+cntr + up/down arrow : Scroll with Keyboard
+cntr + \        : use for split editor window.
+cntr + W        : use for the closed file.
+ctrl + Enter    : Places the cursor in New Line
+cntr + shift + l : use select all matches words in whole file and then edit or del. (risk if similar names)
+cntr + D        : use to only add the next match to group selection.
+shift + alt + down : use for the duplicates lines and paste it there down.
