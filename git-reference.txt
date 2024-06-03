@@ -36,7 +36,6 @@ LATER CHANGES : To push your code to GitHub after making changes, you can follow
   repository (assuming the branch is named `main`).
 
 Before pushing, ensure that you are in the correct local repository directory and that the remote URL is set up correctly. 
-If you encounter any issues during this process, feel free to ask for further assistance.  
 
 
 ------------------------------------------------------------------------------------------------------
