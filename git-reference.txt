@@ -44,10 +44,13 @@ Before pushing, ensure that you are in the correct local repository directory an
 
 Error Cases : 
 
-1. error: remote origin already exists.
-
+1. 
+Code :
+C:\Users\SUSHANT CHAUHAN\Desktop\MAIN\Vs Code Shortcuts>git remote add origin https://github.com/Sushant-Chauhan/VS-Code-Shortcuts.git
+error: remote origin already exists.
 
 SOLUTION : 
+==========
  The error message "error: remote origin already exists" indicates that a remote named `origin` has already been set up in your local Git repository. This error occurs because you are trying to add a remote with the name `origin` again, which is not allowed as it already exists.
 
 To resolve this issue, you have a couple of options:
@@ -82,10 +85,14 @@ After making the necessary adjustments based on the above options, you should be
 
 ------------------------------------------------------------------------------------------------------
 
-2. C:\Users\SUSHANT CHAUHAN\Desktop\MAIN\Typescript>git push -u origin main
+2. 
+Code
+C:\Users\SUSHANT CHAUHAN\Desktop\MAIN\Typescript> git push -u origin main
 To https://github.com/Sushant-Chauhan/Typescript.git
  ! [rejected]        main -> main (non-fast-forward)
-error: failed to push some refs to 'https://github.com/Sushant-Chauhan/Typescript.git'
+
+error: 
+failed to push some refs to 'https://github.com/Sushant-Chauhan/Typescript.git'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. If you want to integrate the remote changes,
 hint: use 'git pull' before pushing again.
@@ -93,32 +100,27 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
 SOLUTION : 
+=========
 
- The error message you received, "error: src refspec main does not match any," typically occurs when you are trying to push changes to a repository but there are no commits in the local `main` branch yet. 
+ The error message you received, "! [rejected] main -> main (non-fast-forward)" along with the hints indicates that the remote repository has changes that you need to pull into your local repository before you can push your changes without conflicts.
 
-Here are steps you can follow to resolve this issue:
+To resolve this issue, you can follow these steps:
 
-1. **Ensure Commits Exist**:
-   - Make sure that you have committed your changes locally. If you haven't made any commits yet, you need to commit your changes before pushing to the repository.
-
-2. **Set Upstream Branch**:
-   - If it's the first time pushing to the repository, you may need to set the upstream branch by using the following command:
+1. **Pull Remote Changes**:
+   - Use the `git pull` command to fetch and integrate the changes from the remote repository into your local repository. This will update your local `main` branch to match the remote `main` branch.
      ```
-     git push -u origin main
+     git pull origin main
      ```
-     This command sets the remote `origin` as the default upstream for the `main` branch.
 
-3. **Verify Branch Name**:
-   - Double-check that the local branch you are trying to push is named `main`. If you are using a different branch name locally, you might need to adjust the branch name in your push command.
+2. **Resolve any Merge Conflicts**:
+   - If there are any merge conflicts during the `git pull` operation, you will need to resolve them. Once resolved, proceed with the following steps.
 
-4. **Push Changes**:
-   - Once you have committed your changes and set the upstream branch, you can try pushing the changes again using:
+3. **Push Changes**:
+   - After pulling and resolving any conflicts, you can push your changes to the remote repository using the following command:
      ```
      git push origin main
      ```
-   - This command pushes the committed changes from your local `main` branch to the remote repository.
 
-By following these steps, you should be able to resolve the "error: src refspec main does not match any" issue and successfully push your changes to the `main` branch on the remote repository. If you encounter any further issues or need more assistance, feel free to ask!  
-
+By following these steps, you should be able to sync your local `main` branch with the remote `main` branch by pulling the changes and then pushing your changes without encountering the non-fast-forward rejection. If you have any further questions or need more assistance, please feel free to ask!  
 ------------------------------------------------------------------------------------------------------
 
