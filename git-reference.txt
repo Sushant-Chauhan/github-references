@@ -1,3 +1,5 @@
+FIRST TIME : 
+
 …or create a new repository on the command line
 echo "# VS-Code-Shortcuts" >> README.md
 git init
@@ -11,3 +13,30 @@ git push -u origin main
 git remote add origin https://github.com/Sushant-Chauhan/VS-Code-Shortcuts.git
 git branch -M main
 git push -u origin main
+
+
+------------------------------------------------------------------------------------------------------
+
+LATER CHANGES : To push your code to GitHub after making changes, you can follow these steps:
+
+1. Add and Commit Changes- :
+
+- First, stage your changes using the following command:
+>>    git add .
+    
+- Next, commit your changes with a descriptive message: 
+>>    git commit -m "commit message"
+    
+
+2. Changes to GitHub :
+- Once your changes are staged and committed, you can push them to the remote repository on GitHub using:
+>>    git push origin main
+    
+- This command will push your committed changes from the local `main` branch to the `main` branch on the remote 
+  repository (assuming the branch is named `main`).
+
+Before pushing, ensure that you are in the correct local repository directory and that the remote URL is set up correctly. 
+If you encounter any issues during this process, feel free to ask for further assistance.  
+
+
+------------------------------------------------------------------------------------------------------
