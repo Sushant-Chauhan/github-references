@@ -1,4 +1,4 @@
-Installing Git
+Installing Git :
  sudo apt-get update
  sudo apt-get install Git
 
@@ -8,7 +8,7 @@ Verifying the installation
 Change the defaultbranch name of the Main from Master use:
  git config --global init.defaultBranch main
 
-Configuring the username and email ID
+Configuring the username and email ID (to make changes from locally with username)
  git config --global --list
  git config --global user.name "Username"
  git config --global user.email "Email"
