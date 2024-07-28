@@ -2,6 +2,8 @@ FIRST TIME :
 
 …or create a new repository on the command line
 echo "# VS-Code-Shortcuts" >> README.md
+
+First open Command Prompt and cd to Project Folder
 git init
 git add .
 //git add README.md
